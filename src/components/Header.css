@@ -1,0 +1,45 @@
+.heading {
+    background-color:  #C7DAC7;
+    animation-name: backgroundcolorchange;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+/* background color(s) */
+/* https://www.millionshade.com/color-palette-0036/ */
+@keyframes backgroundcolorchange {
+    0%   {
+          background: #55CBD366; /* grün */
+    }
+    20%  {
+          background: #B6929666; /* blau */
+    }
+    40%  {
+          background: #FFB68C66; /* violett */
+    }
+    60%  {
+          background: #B6929666; /* rot */
+    }
+    80%  {
+          background: #E99E8766; /* gelb */
+    }
+    100% {
+            background: #C7DAC766;
+    }
+  }
+
+/* h1 text */
+@keyframes headinganimation {
+	0%  {
+	-webkit-transform: translateY(0);
+	transform: rotateY(0deg);
+	}
+	50%{
+	-webkit-transform: translateY(180);
+	transform: rotateY(180deg);
+	}
+	100%{
+	-webkit-transform: translateY(0);
+	transform: rotateY(0deg);
+	}
+}
