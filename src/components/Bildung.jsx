@@ -5,6 +5,11 @@ import { List, Avatar, Row, Col } from 'antd';
 
 const data = [
   {
+    title: 'JavaScript Hero',
+    link: 'https://www.jshero.net/en/home.html',
+    text: 'Programmieren lernen mit JavaScript'
+  },
+  {
     title: 'Code IT',
     link: 'https://code-it-studio.de/',
     text: 'Programmieren lernen für Kinder'

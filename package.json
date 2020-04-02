@@ -16,10 +16,14 @@
     "antd": "4.1.0",
     "react": "^16.12.0",
     "react-code-window": "^2.0.0",
+    "react-d3-library": "^1.1.8",
     "react-dom": "^16.12.0",
     "react-latex": "^1.6.0",
     "react-scripts": "^3.0.1",
-    "tachyons": "^4.11.1"
+    "react-vega": "^7.3.0",
+    "tachyons": "^4.11.1",
+    "vega": "^5.10.1",
+    "vega-lite": "^4.9.0"
   },
   "browserslist": [
     ">0.2%",
