@@ -31,13 +31,12 @@ const data = [
   },
 ];
 
-export default function Women(){
+export default function Edu(){
     return(
         <div>
-          <h3>Bildung</h3>
+          <h3>Educational Resources</h3>
           <Row>
-            <Col>
-            Hier sammle ich links, die ich interessant finde zum Thema Bildung und Digitalisierung:<br/>
+            <Col> 
             <List
                 itemLayout="horizontal"
                 dataSource={data}

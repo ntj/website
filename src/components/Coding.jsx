@@ -24,7 +24,7 @@ export default function Coding(){
             <Row>
                 <Col span={16}>
                     I'm developing web apps for the most parts the last couple of years. I really enjoy modeling
-                    portions of the real world into a database scheme and building applications which give the user new ways of exploring their data.<br />
+                    portions of the real world and building applications, which give the user new ways of exploring their data.<br /><br />
                     Here I describe in a few words what I find exciting with each technology. Don't expect this page to be complete anyhow.
                 </Col>
             </Row>

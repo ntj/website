@@ -2,7 +2,6 @@ import React from 'react';
 import { Tabs, Space, Row, Col } from 'antd';
 import About from './About';
 import Coding from './Coding';
-import Women from './Women';
 import Bildung from './Bildung';
 import Sandbox from './Sandbox';
 import './Navigation.css'

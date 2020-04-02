@@ -6,7 +6,7 @@ export default function ReactJS(){
 
     return (    
         <div>
-            React is fun and there are numberous modules you can simply install for all kinds of front end experiences.
+            React is fun and there are numerous modules you can simply install for all kinds of front-end experiences.
         </div>
     )
 }
