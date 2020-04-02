@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css'
+import { Avatar } from 'antd';
 import Tachyons from 'tachyons/css/tachyons.min.css'
 
 export default function Header(){
 
     return (    
-        <div className="heading pv2 ph3">
-            <h2>Antje Kazimiers</h2>
+        <div className="website-header">
+            <h2><Avatar size={32} src='./wald.jpeg' />
+                <span className='text'>Antje Kazimiers</span>
+            </h2>
         </div>
     )
 }

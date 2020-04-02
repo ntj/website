@@ -7,9 +7,11 @@ export default function CodingCard(props){
 
     return (    
         <div>
-            <Card title={props.title}>
-                {props.children}
-            </Card>
+            <a class="card-link" href={props.link}>
+                <Card title={props.title}>
+                    {props.children}
+                </Card>
+            </a>
         </div>
     )
 }

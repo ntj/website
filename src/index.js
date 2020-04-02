@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 ReactDOM.render(
   <div>
-    <Header />
+    <Header/>
     <Navigation />
     <Footer />
   </div>,

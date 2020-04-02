@@ -20,46 +20,36 @@ const data = [
 export default function Coding(){
     return(
         <div>
+            <h3>Coding</h3>
             <Row>
-                I'm developing web apps for the most parts the last couple of years. I really enjoy modeling
-                portions of the real world into a database scheme and building applications which give the user new ways of exploring their data.
+                <Col span={16}>
+                    I'm developing web apps for the most parts the last couple of years. I really enjoy modeling
+                    portions of the real world into a database scheme and building applications which give the user new ways of exploring their data.<br />
+                    Here I describe in a few words what I find exciting with each technology. Don't expect this page to be complete anyhow.
+                </Col>
             </Row>
-            <br/>
-            <Row>
-                Here I describe in a few words what I find exciting with each technology. Don't expect this page to be complete anyhow.
-            </Row>
-            <br/>
+            <br/><br/>
             <Row>
                 <Col span={8}>
-                    <CodingCard title="Flask">
+                    <CodingCard title="Flask" link="https://flask.palletsprojects.com/en/1.1.x/"  >
                         <Flask />
                     </CodingCard>
                 </Col>
                 <Col span={8}>
-                    <CodingCard title="Django">
+                    <CodingCard title="Django" link="https://www.djangoproject.com/">
                         <Django />
                     </CodingCard>    
-                </Col>
-                <Col span={8}>
-                    <CodingCard title="ReactJS">
-                        <ReactJS />
-                    </CodingCard>
                 </Col>
             </Row>
             <br/>
             <Row>
                 <Col span={8}>
-                    <CodingCard title="Dynamics CRM">
-                        <CRM />
+                <CodingCard title="ReactJS" link="https://reactjs.org/">
+                        <ReactJS />
                     </CodingCard>
                 </Col>
                 <Col span={8}>
-                    <CodingCard title="SharePoint">
-                        <SharePoint />
-                    </CodingCard>
-                </Col>
-                <Col span={8}>
-                    <CodingCard title="Docker">
+                    <CodingCard title="Docker" link="https://hub.docker.com/">
                         <Docker />
                     </CodingCard>
                 </Col>

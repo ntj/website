@@ -14,9 +14,7 @@ export default function Sandbox(){
 
     return (
         <div>
-            <div>
-                This is my playground to try out React modules and JavaScript features.
-            </div>
+            <h3>Welcome to Spielwiese</h3>
             <br/>
             <h3>React LaTeX</h3>
             <Latex>What is $(3\times 4) \div (5-3)$ ?</Latex>

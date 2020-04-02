@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import { List, Avatar } from 'antd';
+import { List, Avatar, Row, Col } from 'antd';
 
 const data = [
   {
@@ -14,25 +14,40 @@ const data = [
     link: 'https://www.hackerrank.com/',
     text: 'Programmieren lernen für Erwachsene'
   },
+  {
+    title: 'Schul-Cloud',
+    link: 'https://www.heise.de/newsticker/meldung/Bildungsministerium-oeffnet-Schul-Cloud-auch-fuer-Schulen-ohne-MINT-Schwerpunkt-4692669.html ',
+    text: 'Bildungsministerium öffnet Schul-Cloud – auch für Schulen ohne MINT-Schwerpunkt  '
+  },
+  {
+    title: 'Moodle',
+    link: 'moodle.de',
+    text: 'Moodle-Lernplattform'
+  },
 ];
 
 export default function Women(){
     return(
         <div>
-          Here I'm collecting interesting links regarding education and computer science
-        <List
-            itemLayout="horizontal"
-            dataSource={data}
-            renderItem={item => (
-            <List.Item>
-                <List.Item.Meta
-                // avatar={<Avatar src="" />}
-                title={<a href={item.link}>{item.title}</a>}
-                description={item.text}
-                />
-            </List.Item>
-            )}
-        />
+          <h3>Bildung</h3>
+          <Row>
+            <Col>
+            Hier sammle ich links, die ich interessant finde zum Thema Bildung und Digitalisierung:<br/>
+            <List
+                itemLayout="horizontal"
+                dataSource={data}
+                renderItem={item => (
+                <List.Item>
+                    <List.Item.Meta
+                    // avatar={<Avatar src="" />}
+                    title={<a href={item.link}>{item.title}</a>}
+                    description={item.text}
+                    />
+                </List.Item>
+                )}
+            />
+            </Col>
+          </Row>
         </div>
     )
 };

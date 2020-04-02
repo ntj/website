@@ -43,3 +43,15 @@
 	transform: rotateY(0deg);
 	}
 }
+
+.website-header {
+      position: absolute;
+}
+
+.website-header h2{
+      color: #3e2656;
+}
+
+.website-header .text{
+      margin-left: 0.8em;
+}

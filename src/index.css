@@ -2,6 +2,18 @@
     margin-right: 3em;
 }
 
-.body {
-    background-color: red;
+.ant-card-head {
+    background-color: #d3d3d366;
+}
+
+.ant-card {
+    margin-right: 1em;
+}
+
+.card-link:hover .ant-card-head {
+    background-color: #C7DAC766;
+}
+
+.ant-tabs-nav {
+    margin-left: 20em;
 }
