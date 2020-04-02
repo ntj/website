@@ -18,7 +18,7 @@ export default function About(){
                     <Avatar size={128   } src='./wald.jpeg' />
                 </Col>
             </Row>
-            <br/>
+            <br/>   
                 <Row>
                 <Col span={8}>
                     I'm always exploring ways to teach IT knowledge to everyone interested, children and adults. Using the computer, devices and digital media, understanding

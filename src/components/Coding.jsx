@@ -8,52 +8,43 @@ import Flask from './Flask';
 import ReactJS from './ReactJS';
 import CRM from './CRM';
 import SharePoint from './SharePoint';
+import Post from './Post';
 import Docker from './Docker';
 import { getConfigFileParsingDiagnostics } from 'typescript';
+import { useEffect } from 'react';
+
 
 const data = [
-  {
-    title: 'Maria Klawe',
-  },
-];
+    {
+      title: 'Django + Docker',
+      link: 'https://www.jshero.net/en/home.html',
+      text: 'Dockerize your Django for production',
+      avatar: 'https://live.staticflickr.com/7336/14098888813_1047e39f08.jpg'
+    }
+  ];
 
 export default function Coding(){
+
     return(
         <div>
-            <h3>Coding</h3>
+            <h3>Coding Blog</h3>
             <Row>
-                <Col span={16}>
-                    I'm developing web apps for the most parts the last couple of years. I really enjoy modeling
-                    portions of the real world and building applications, which give the user new ways of exploring their data.<br /><br />
-                    Here I describe in a few words what I find exciting with each technology. Don't expect this page to be complete anyhow.
-                </Col>
-            </Row>
-            <br/><br/>
-            <Row>
-                <Col span={8}>
-                    <CodingCard title="Flask" link="https://flask.palletsprojects.com/en/1.1.x/"  >
-                        <Flask />
-                    </CodingCard>
-                </Col>
-                <Col span={8}>
-                    <CodingCard title="Django" link="https://www.djangoproject.com/">
-                        <Django />
-                    </CodingCard>    
-                </Col>
-            </Row>
-            <br/>
-            <Row>
-                <Col span={8}>
-                <CodingCard title="ReactJS" link="https://reactjs.org/">
-                        <ReactJS />
-                    </CodingCard>
-                </Col>
-                <Col span={8}>
-                    <CodingCard title="Docker" link="https://hub.docker.com/">
-                        <Docker />
-                    </CodingCard>
-                </Col>
-            </Row>
+            <Col> 
+            <List
+                itemLayout="horizontal"
+                dataSource={data}
+                renderItem={item => (
+                <List.Item>
+                    <List.Item.Meta
+                    avatar={<Avatar src={item.avatar} />}
+                    title={<a href={item.link}>{item.title}</a>}
+                    description={item.text}
+                    />
+                </List.Item>
+                )}
+            />
+            </Col>
+          </Row>
         </div>
     )
 };
