@@ -17,3 +17,7 @@
 .ant-tabs-nav {
     margin-left: 20em;
 }
+
+.navigation {
+    border-bottom-left-radius: 70px;
+}
