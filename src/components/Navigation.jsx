@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Tabs, Space, Row, Col } from 'antd';
+import { Tabs, Row, Col } from 'antd';
 import About from './About';
 import Coding from './Coding';
 import Fun from './Fun';
-import Bildung from './Bildung';
-import Sandbox from './Sandbox';
 import './Navigation.css'
 const { TabPane } = Tabs;
 
@@ -21,14 +19,14 @@ export default function Navigation(props) {
                             </Col>
                         </Row>
                     </TabPane>
-                    <TabPane tab="Projects" key="2">
+                    <TabPane tab="Projects" key="2" className="space">
                         <Row>
                             <Col span={20} offset={2}>
                                 <Coding />
                             </Col>
                         </Row>
                     </TabPane>
-                    <TabPane tab="Fun" key="3">
+                    <TabPane tab="Fun" key="3" className="space">
                         <Row>
                             <Col span={20} offset={2}>
                                 <Fun />

@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'antd';
+import tomantje from '../tom-antje.jpg';
 
-export default function Resume() {
-  const [mode, setMode] = useState('left');
-
-  const onChange = e => {
-    setMode(e.target.value);
-  };
+export default function Fun() {
 
   return (
     <div>
       <Row>
         <Col span={8}>
-          <img src="./tom-antje.jpg" />
+          <img src={tomantje} />
         </Col>
       </Row>
       <Row>My husband and me hiking</Row>
