@@ -8,7 +8,7 @@ import Resume from './Resume';
 const data = [
   {
     title: 'Teaching',
-    tech: 'Django + Docker',
+    tech: '',
     link: 'https://scratch.mit.edu/',
     text: 'Exploring visual languages and micro frameworks to teach concepts of programming.',
     avatar: './django.png'
@@ -44,7 +44,7 @@ const data = [
   {
     title: 'Dynamics CRM',
     tech: 'Dynamics CRM',
-    link: 'https://www.hhmi.org/programs/hanna-h-gray-fellows-program#Fellows',
+    link: '',
     text: 'Built a record management system as part of a transition project to replace legacy software.',
     avatar: ''
   },
