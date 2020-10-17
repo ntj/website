@@ -3,6 +3,7 @@ import { Tabs, Row, Col } from 'antd';
 import About from './About';
 import Coding from './Coding';
 import Fun from './Fun';
+import Links from './Links';
 import './Navigation.css'
 const { TabPane } = Tabs;
 

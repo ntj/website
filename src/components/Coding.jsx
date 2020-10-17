@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import { List, Avatar, Row, Col, Space } from 'antd';
+import { List, Row, Col } from 'antd';
 import Resume from './Resume';
 
 
@@ -17,7 +17,7 @@ const data = [
     title: 'Viral Tools',
     tech: 'Django + Docker',
     link: '',
-    text: 'A fully dockerized django application to order viruses produced at Janelia Research Campus and manage incoming requests. Finished development of ongoing software so that the application could be rolled out to production. Provided ongoing support and maintenance.',
+    text: 'A fully dockerized django application to order viruses produced at Janelia Research Campus and manage incoming requests. Finished development so that the application could be rolled out to production. Provided ongoing support and maintenance.',
     avatar: './django.png'
   },
   {
