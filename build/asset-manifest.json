@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.9ad5faf6.chunk.css",
-    "main.js": "/website/static/js/main.c0ef10a6.chunk.js",
-    "main.js.map": "/website/static/js/main.c0ef10a6.chunk.js.map",
+    "main.css": "/website/static/css/main.9aacabc7.chunk.css",
+    "main.js": "/website/static/js/main.4f9329c9.chunk.js",
+    "main.js.map": "/website/static/js/main.4f9329c9.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.dc708963.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.dc708963.js.map",
-    "static/css/2.ddea7309.chunk.css": "/website/static/css/2.ddea7309.chunk.css",
-    "static/js/2.ace3a6be.chunk.js": "/website/static/js/2.ace3a6be.chunk.js",
-    "static/js/2.ace3a6be.chunk.js.map": "/website/static/js/2.ace3a6be.chunk.js.map",
+    "static/css/2.af1dd7e9.chunk.css": "/website/static/css/2.af1dd7e9.chunk.css",
+    "static/js/2.778df9d5.chunk.js": "/website/static/js/2.778df9d5.chunk.js",
+    "static/js/2.778df9d5.chunk.js.map": "/website/static/js/2.778df9d5.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.fb6b56d42529acdf741261a91db1deec.js": "/website/precache-manifest.fb6b56d42529acdf741261a91db1deec.js",
+    "precache-manifest.ff8a9234a768482e5d62ad0cbcbcc50d.js": "/website/precache-manifest.ff8a9234a768482e5d62ad0cbcbcc50d.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/2.ddea7309.chunk.css.map": "/website/static/css/2.ddea7309.chunk.css.map",
-    "static/css/main.9ad5faf6.chunk.css.map": "/website/static/css/main.9ad5faf6.chunk.css.map",
-    "static/js/2.ace3a6be.chunk.js.LICENSE.txt": "/website/static/js/2.ace3a6be.chunk.js.LICENSE.txt"
+    "static/css/2.af1dd7e9.chunk.css.map": "/website/static/css/2.af1dd7e9.chunk.css.map",
+    "static/css/main.9aacabc7.chunk.css.map": "/website/static/css/main.9aacabc7.chunk.css.map",
+    "static/js/2.778df9d5.chunk.js.LICENSE.txt": "/website/static/js/2.778df9d5.chunk.js.LICENSE.txt",
+    "static/media/tom-antje.jpg": "/website/static/media/tom-antje.faefc3dd.jpg",
+    "static/media/wald.jpeg": "/website/static/media/wald.4ba6a7d7.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.dc708963.js",
-    "static/css/2.ddea7309.chunk.css",
-    "static/js/2.ace3a6be.chunk.js",
-    "static/css/main.9ad5faf6.chunk.css",
-    "static/js/main.c0ef10a6.chunk.js"
+    "static/css/2.af1dd7e9.chunk.css",
+    "static/js/2.778df9d5.chunk.js",
+    "static/css/main.9aacabc7.chunk.css",
+    "static/js/main.4f9329c9.chunk.js"
   ]
 }

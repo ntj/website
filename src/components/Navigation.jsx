@@ -12,7 +12,7 @@ export default function Navigation(props) {
         <Row>
             <Col span={24}>
                 <Tabs defaultActiveKey={3} type="card">
-                    <TabPane tab="About Me" key="1" className="space">
+                    <TabPane tab="Me" key="1" className="space">
                         <Row>
                             <Col span={20} offset={2}>
                                 <About />
@@ -30,6 +30,13 @@ export default function Navigation(props) {
                         <Row>
                             <Col span={20} offset={2}>
                                 <Fun />
+                            </Col>
+                        </Row>
+                    </TabPane>
+                    <TabPane tab="Links" key="4" className="space">
+                        <Row>
+                            <Col span={20} offset={2}>
+                                <Links />
                             </Col>
                         </Row>
                     </TabPane>
