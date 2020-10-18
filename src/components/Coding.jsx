@@ -17,7 +17,7 @@ const data = [
     title: 'Viral Tools',
     tech: 'Django + Docker',
     link: '',
-    text: 'A fully dockerized django application to order viruses produced at Janelia Research Campus and manage incoming requests. Finished development so that the application could be rolled out to production. Provided ongoing support and maintenance.',
+    text: 'A fully dockerized django application to order viruses produced at Janelia Research Campus and to manage incoming requests. Finished development so that the application could be rolled out to production. Provided ongoing support and maintenance.',
     avatar: './django.png'
   },
   {
