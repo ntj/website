@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "homepage": "http://ntj.github.io/website",
+    "homepage": "http://ntj.github.io",
     "scripts": {
         "test": "react-scripts test --env=jsdom",
         "start": "react-scripts start",
