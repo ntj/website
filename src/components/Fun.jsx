@@ -7,11 +7,8 @@ export default function Fun() {
   return (
     <div>
       <Row>
-        <Col span={8}>
-          <img src={tomantje} />
-        </Col>
+        <div id="images"></div>
       </Row>
-      <Row>My husband and me hiking</Row>
     </div>
   )
 }

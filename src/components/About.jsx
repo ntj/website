@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Row, Col, Space } from 'antd';
 import { Avatar } from 'antd';
 import wald from '../wald.jpeg';
+import './About.css'
 
 export default function About() {
 
@@ -17,7 +18,9 @@ export default function About() {
                     for a lot of people and computer science should be taught in a way knowledge becomes easy to learn.
                 </Col>
                 <Col span={6} offset={3}>
-                    <Avatar size={128} src={wald} />
+                    <div class="avatar-column">
+                        <Avatar size={128} src={wald} />
+                    </div>
                 </Col>
             </Row>
         </div>

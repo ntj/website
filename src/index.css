@@ -25,3 +25,10 @@
 .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
     margin-right: 1.2em;
 }
+
+#images {
+    margin-bottom: 1em;
+    height: 40px;
+    background-size: contain;
+    background-image: url('https://raw.githubusercontent.com/ntj/sandbox/15d4119abc77064b6c194666ef830b59d3c9f6f7/img/star1-4.svg');
+}

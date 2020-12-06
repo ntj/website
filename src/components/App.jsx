@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <Header />
+        <Header /><br />
         {/* content */}
         <Switch>
           <Route exact path="/" component={() => <Navigation default={2} />} />
